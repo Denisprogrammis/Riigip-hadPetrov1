@@ -2,5 +2,20 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RiigipühadPetrov.MainPage">
+    <TabbedPage.Children>
+        
+        <local:detsember/>
+        <local:jaanuar/>
+        <local:Veebruar/>
+        <local:marts/>
+        <local:Aprill/>
+        <local:Mai/>
+        <local:Juuni/>
+        <local:Juuli/>
+        <local:August/>
+        <local:September/>
+        <local:Oktober/>
+        <local:November/>
+    </TabbedPage.Children>
 
 </TabbedPage>
